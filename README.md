@@ -1,5 +1,9 @@
 # HartiEmarketApp-Android
 Designed this app for the government of Sri Lank. This app helps local farmers to sell their goods and service through the mobile. 
+
+- App Has Three Languages
+- Phone Authenticaion using Firebase
+
 </br> </br> 
 <img src="https://user-images.githubusercontent.com/87483405/138681101-77a42f01-464b-4307-9056-01a0f1ee81b4.jpg"/>
 </br> </br> 
