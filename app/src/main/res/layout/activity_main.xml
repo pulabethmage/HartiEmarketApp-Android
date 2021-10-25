@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="20dp"
+    android:background="@drawable/darkbackgroundcolour"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/sllogo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"/>
+
+<TextView
+    android:layout_marginTop="20dp"
+    android:gravity="center_horizontal"
+    android:textColor="@color/colorWhite"
+    android:textSize="35sp"
+    android:text="@string/splashcreen_tittle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/iskpota"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:text="@string/splashcreen_subtittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/iskpota"/>
+
+    <LinearLayout
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+
+            android:src="@drawable/accimtlogo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+
+        <ImageView
+        android:src="@drawable/hartilogo"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+
+        <TextView
+            android:fontFamily="@font/iskpota"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/harti_name_sinhala"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/harti_name_english"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/iskpota"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/harti_name_tamil"/>
+
+        <ProgressBar
+
+            android:layout_marginTop="50dp"
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="bottom"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/iskpota"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dev_by_sinhala"/>
+
+    <TextView
+        android:layout_gravity="bottom"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/iskpota"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dev_by"/>
+
+
+
+</LinearLayout>

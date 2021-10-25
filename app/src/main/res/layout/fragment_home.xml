@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/light_background"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <LinearLayout
+       android:padding="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <Button
+           android:id="@+id/s_btn_sepayuma"
+           android:layout_marginLeft="20dp"
+           android:textStyle="bold"
+       android:textSize="12sp"
+       android:textColor="@color/colorWhite"
+       android:background="@drawable/dark_button_background"
+       android:text="@string/sinhala_mainpage_sapayuma"
+       android:layout_width="0dp"
+           android:layout_weight="1"
+       android:layout_height="wrap_content"/>
+
+       <Button
+           android:id="@+id/s_btn_thogamila"
+           android:textStyle="bold"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="20dp"
+           android:textSize="12sp"
+           android:textColor="@color/colorWhite"
+           android:background="@drawable/dark_button_background"
+           android:text="@string/sinhala_mainpage_todayprice"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"/>
+
+
+
+   </LinearLayout>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:id="@+id/s_cat_vegitable"
+                android:background="@drawable/roundedwhitebackground"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:src="@drawable/vegitabls"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:id="@+id/main_cat_textview_elawalu"
+                    android:fontFamily="@font/iskpota"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sinhala_mainpage_elawalu"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s_cat_fruits"
+                android:background="@drawable/roundedwhitebackground"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:src="@drawable/fruits"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:id="@+id/main_cat_textview_palathuru"
+                    android:fontFamily="@font/iskpota"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sinhala_mainpage_palathuru"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/s_cat_vee"
+                android:background="@drawable/roundedwhitebackground"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:src="@drawable/riceseeds"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:id="@+id/main_cat_textview_vee"
+                    android:fontFamily="@font/iskpota"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sinhala_mainpage_vee"/>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/s_cat_sahal"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/rice"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_sahal"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_sahal"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_daanya"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/seeds"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_daanya"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_dhanya"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/s_cat_pol"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/coconut"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_pol"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_pol"/>
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/s_cat_mas"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/meat"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_mas"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_mas"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_maalu"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/fish"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_maalu"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_maalu"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_karawala"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/karawala"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_karawala"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_karawala"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/s_cat_kiri"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/milk"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_kiri"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_kiri"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_biththara"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/eggs"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_biththara"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_biththara"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_pani"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/pani"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_pani"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_pani"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/s_cat_kulubadu"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/kulubadu"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_kulubadu"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_kulubadu"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/s_cat_palaawarga"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/palaa"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_palawarga"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_palawarga"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_miris"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/greenchillie"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_miris"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_miris"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/s_cat_pela"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/pela"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_pela"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_pela"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/s_cat_beeja"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/beeja"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_beeja"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_beeja"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_bimmal"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/bimmal"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_bimmal"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_bimmal"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/s_cat_thel"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/oils"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_thel"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_thel"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_ala"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/potatos"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_ala"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_ala"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_maanshaboga"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/maanshaboga"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_maanshaboga"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_maanshaboga"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/s_cat_mal"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/mal"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_mal"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_mal"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_apanayanaboga"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/otherboga"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_apanayanaboga"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_apanayanaboga"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_aayurwedashaka"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/ayrwedashaka"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_aayurwedashaka"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_aayurwedashaka"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/s_cat_helabojun"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:src="@drawable/helabojun"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_helabojun"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_helabojun"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_athkam"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/athkam"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_athkam"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_athkam"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_gap"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:paddingTop="3dp"
+                        android:src="@drawable/slgap"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_gap"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_gap"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/s_cat_krushiupakarana"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/agriequipments"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_goviupakarana"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_goviupakarana"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_prawahana"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/transportlorry"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_prawahana"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_prawahana"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/s_cat_krushishramikain"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/krushikamkaru"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_krushishramikayin"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_krushishramikayin"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/s_cat_sathwapaalana"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:src="@drawable/animalcontrol"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_sathwapalana"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_sathwapalana"/>
+                </LinearLayout>
+
+<!--                <LinearLayout-->
+<!--                    android:background="@drawable/roundedwhitebackground"-->
+<!--                    android:paddingLeft="5dp"-->
+<!--                    android:paddingRight="5dp"-->
+<!--                    android:paddingBottom="10dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <ImageView-->
+<!--                        android:src="@drawable/transportlorry"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="100dp"/>-->
+<!--                    <TextView-->
+<!--                        android:fontFamily="@font/iskpota"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/sinhala_mainpage_prawahana"/>-->
+<!--                </LinearLayout>-->
+
+                <LinearLayout
+                    android:id="@+id/s_cat_pohora"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:src="@drawable/pohora"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:id="@+id/main_cat_textview_pohora"
+                        android:fontFamily="@font/iskpota"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sinhala_mainpage_pohora"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

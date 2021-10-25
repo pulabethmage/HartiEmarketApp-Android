@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+              android:layout_weight="4"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="8sp"
+                    android:id="@+id/sellerlist_datetitle"
+                    android:text="Advertisement Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/sellerlist_addate"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="2022-02-06 11:08:51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sellerlist_maincat"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:text="Main category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/sellerlist_subcat"
+                        android:text="Sub category"
+                        android:textSize="12sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/sellerlist_ad_status"
+                    android:layout_gravity="center"
+                    android:background="@drawable/homeitem_background"
+                    android:gravity="center"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"/>
+
+                <Button
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/sellerlist_editbtn"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/editbutton"
+                    android:textSize="10sp"
+                    android:text="edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"/>
+
+                <Button
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/sellerlist_deletebtn"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/deletebtnbackground"
+                    android:textSize="10sp"
+                    android:text="delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/sellerlist_adid"
+            android:text="ad id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

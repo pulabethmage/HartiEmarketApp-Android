@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:paddingTop="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/light_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.RegisterFragment"
+    android:clickable="false">
+
+
+<TextView
+    android:id="@+id/s_edt_reg_mainTitle"
+    android:textSize="15sp"
+    android:gravity="center"
+    android:text="@string/s_register_tittle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:padding="20dp"
+                android:background="@drawable/edittext_background"
+                android:textSize="12sp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/s_edt_reg_name"
+                android:hint="@string/s_register_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:padding="20dp"
+                android:background="@drawable/edittext_background"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/s_edt_reg_nic"
+                android:hint="@string/s_register_nic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_background"
+                android:padding="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/s_edt_reg_genderTitle"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:paddingBottom="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s_register_gender"/>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioGroup
+                        android:id="@+id/regRadioGroup"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5sp">
+
+
+                        <RadioButton
+                            android:textSize="12sp"
+                            android:id="@+id/regGenMale"
+                            android:text="@string/s_register_gender_male"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent" />
+                        <RadioButton
+                            android:textSize="12sp"
+                            android:id="@+id/regGenFemale"
+                            android:text="@string/s_register_gender_female"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent" />
+
+
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <EditText
+                android:padding="20dp"
+                android:background="@drawable/edittext_background"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/s_edt_reg_address"
+                android:hint="@string/s_register_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:inputType="phone"
+                android:padding="20dp"
+                android:background="@drawable/edittext_background"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/s_edt_reg_phone"
+                android:hint="@string/s_register_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_background"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/s_edt_reg_districtTitle"
+                android:textSize="12sp"
+                android:text="@string/s_register_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:background="@drawable/buyitembackground"
+                android:padding="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/s_edt_reg_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_background"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/s_edt_reg_govicenterTitle"
+                android:textSize="12sp"
+                android:text="@string/s_register_govicenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:background="@drawable/buyitembackground"
+                android:padding="20dp"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/s_edt_reg_govicenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+            <EditText
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="15dp"
+                android:textSize="12sp"
+                android:id="@+id/s_edt_reg_password"
+                android:hint="@string/s_register_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="15dp"
+                android:textSize="12sp"
+                android:id="@+id/s_edt_reg_comfpassword"
+                android:hint="@string/s_register_comfpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/s_edt_reg_submit_btn"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorWhite"
+                android:text="@string/s_register_submit"
+                android:background="@drawable/dark_button_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

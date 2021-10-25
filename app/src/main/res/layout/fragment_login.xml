@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment"
+    android:background="@drawable/light_background"
+    android:orientation="vertical"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp"
+    android:clickable="false">
+
+<TextView
+android:gravity="center"
+    android:fontFamily="@font/iskpota"
+    android:textSize="40sp"
+    android:layout_marginTop="80dp"
+    android:text="@string/splashcreen_tittle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/Login_subtittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:padding="20dp"
+        android:background="@drawable/edittext_background"
+        android:textSize="12sp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/log_username"
+        android:hint="User Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="15dp"
+        android:textSize="12sp"
+        android:id="@+id/log_password"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/forgotpassword"
+        android:textSize="12sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:text="@string/Login_subtittle_forgotpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="loginsubmitbtn"
+        android:id="@+id/login_submitbtn"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:text="@string/Login_subtittle_athulwanna"
+        android:background="@drawable/dark_button_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/donthaveaccouint"
+android:textColor="@color/colorWhite"
+            android:onClick="linkregisternow"
+            android:layout_marginBottom="40dp"
+            android:gravity="center|bottom"
+            android:layout_marginRight="10dp"
+            android:text="@string/Login_subtittle_ginumaknathida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

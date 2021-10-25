@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/custom_todaysprice_subcat_name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Sub Category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/s_todays_price_stock_price"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/todays_price_stock_price"
+                    android:textSize="12sp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/s_todays_price_stock_price"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:background="#dedede"
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/s_todays_price_retail_price"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/todays_price_retail_price"
+                    android:textSize="12sp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/s_todays_price_retail_price"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

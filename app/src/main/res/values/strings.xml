@@ -1,0 +1,379 @@
+<resources>
+    <string name="app_name">සුපිරි පොල</string>
+
+    <string name="splashcreen_tittle">සුපිරි පොල</string>
+    <string name="splashcreen_subtittle">ආයුබෝවන්</string>
+
+    <string name="harti_name_sinhala">හෙක්ටර් කොබ්බෑකඩුව ගොවි කටයුතු පර්යේෂණ හා පුහුණු කිරීමේ ආයතනය</string>
+    <string name="harti_name_english">Hector Kobbekaduwa Agrarian Research and Training Institute</string>
+    <string name="harti_name_tamil">ஹெக்டர் கொப்பேகடுவ கமநல ஆராய்ச்சி, பயிற்சி நிறுவகம</string>
+
+    <string name="dev_by">Arthur C Clarke Institute for Modern Technologies</string>
+    <string name="dev_by_sinhala">නවීන තාක්ෂණ පිළබඳ ආතර් සී ක්ලාක් ආයතනය</string>
+
+
+    <string name="selectactivity_tittle">Please select your preferred\nlanguage to continue</string>
+    <string name="selectactivity_sinhala">සිංහල</string>
+    <string name="selectactivity_english">English</string>
+    <string name="selectactivity_tamil">தமிழ்</string>
+
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">සුපිරි පොල</string>
+    <string name="nav_header_subtitle">ආයුබෝවන්</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_changelan">Change Language</string>
+
+<!--    Sinhala-->
+    <string name="menu_home">මුල් පිට</string>
+    <string name="menu_gallery">විකුණුම්</string>
+    <string name="menu_slideshow">මිලදී ගැනීම</string>
+
+    <string name="menu_home_tamil">வீடு</string>
+    <string name="menu_gallery_tamil">விற்பனை</string>
+    <string name="menu_slideshow_tamil">මිලදී ගැනීම</string>
+
+    <string name="menu_home_english">Home</string>
+    <string name="menu_gallery_english">Selling</string>
+    <string name="menu_slideshow_english">මිලදී ගැනීම</string>
+
+
+<!--    Sinhala Menu Items-->
+    <string name="menu_tools">දැන්වීම්</string>
+    <string name="menu_share">ඹබගේ ගිනුම</string>
+    <string name="menu_send">පැමිණිලි</string>
+    <string name="menu_register">ලියාපදිංචිය</string>
+
+    <string name="tamil_menu_tools_tamil">விளம்பரம்</string>
+    <string name="tamil_menu_share_tamil">உங்கள் கணக்கு</string>
+    <string name="tamil_menu_send_tamil">உங்கள் கணக்கு</string>
+    <string name="tamil_menu_register_tamil">பதிவு</string>
+
+    <string name="tamil_menu_tools_english">Advertisement</string>
+    <string name="tamil_menu_share_english">Your Account</string>
+    <string name="tamil_menu_send_english">Complaints</string>
+    <string name="tamil_menu_register_english">Registration</string>
+
+    <string name="title_activity_main_screen">MainScreenActivity</string>
+    <!--   End Sinhala Menu Items-->
+
+    <string name="sinhala_mainpage_thogamila">තොග මිල</string>
+    <string name="sinhala_mainpage_illuma">ඉල්ලුම</string>
+
+    <string name="sinhala_mainpage_sapayuma">විකුණුම්</string>
+    <string name="sinhala_mainpage_todayprice">අද මිල</string>
+
+    <string name="tamil_mainpage_sapayuma_tamil">விற்பனை</string><!--විකුණුම්-->
+    <string name="tamil_mainpage_todayprice_tamil">இன்றைய விலை</string><!--අද මිල-->
+
+    <string name="tamil_mainpage_sapayuma_english">Selling</string><!--විකුණුම්-->
+    <string name="tamil_mainpage_todayprice_english">Today Price</string><!--අද මිල-->
+
+
+<!--    Main menu Items Sinhala-->
+    <string name="sinhala_mainpage_elawalu">එලවලු</string>
+    <string name="sinhala_mainpage_palathuru">පලතුරැ</string>
+    <string name="sinhala_mainpage_vee">වී</string>
+
+    <string name="tamil_mainpage_elawalu_tamil">காய்கறி</string>
+    <string name="tamil_mainpage_palathuru_tamil">பழம்</string>
+    <string name="tamil_mainpage_vee_tamil">மற்றும்</string>
+
+    <string name="tamil_mainpage_elawalu_english">Vegetables</string>
+    <string name="tamil_mainpage_palathuru_english">Fruits</string>
+    <string name="tamil_mainpage_vee_english">Vee</string>
+
+    <string name="sinhala_mainpage_sahal">සහල්</string>
+    <string name="sinhala_mainpage_dhanya">ධාන්‍ය</string>
+    <string name="sinhala_mainpage_pol">පොල්</string>
+
+    <string name="tamil_mainpage_sahal_tamil">அரிசி</string>
+    <string name="tamil_mainpage_dhanya_tamil">விதைகள்</string>
+    <string name="tamil_mainpage_pol_tamil">தேங்காய்</string>
+
+    <string name="tamil_mainpage_sahal_english">Rice</string>
+    <string name="tamil_mainpage_dhanya_english">Grain</string>
+    <string name="tamil_mainpage_pol_english">Coconut</string>
+
+    <string name="sinhala_mainpage_mas">මස්</string>
+    <string name="sinhala_mainpage_maalu">මාලු</string>
+    <string name="sinhala_mainpage_karawala">කරවල</string>
+
+    <string name="tamil_mainpage_mas_tamil">இறைச்சி</string>
+    <string name="tamil_mainpage_maalu_tamil">மீன்</string>
+    <string name="tamil_mainpage_karawala_tamil">கருவாடு</string>
+
+    <string name="tamil_mainpage_mas_english">Meat</string>
+    <string name="tamil_mainpage_maalu_english">Fish</string>
+    <string name="tamil_mainpage_karawala_english">Dry Fish</string>
+
+    <string name="sinhala_mainpage_kiri">කිරි</string>
+    <string name="sinhala_mainpage_biththara">බිත්තර</string>
+    <string name="sinhala_mainpage_pani">පැණි</string>
+
+    <string name="tamil_mainpage_kiri_tamil">பால்</string>
+    <string name="tamil_mainpage_biththara_tamil">முட்டைகள்</string>
+    <string name="tamil_mainpage_pani_tamil">ஹனி</string>
+
+    <string name="tamil_mainpage_kiri_english">Milk</string>
+    <string name="tamil_mainpage_biththara_english">Eggs</string>
+    <string name="tamil_mainpage_pani_english">Honey</string>
+
+    <string name="sinhala_mainpage_kulubadu">කුළුබඩු</string>
+    <string name="sinhala_mainpage_palawarga">පලාවර්ග</string>
+    <string name="sinhala_mainpage_miris">මිරිස්</string>
+
+    <string name="tamil_mainpage_kulubadu_tamil">மசாலா</string>
+    <string name="tamil_mainpage_palawarga_tamil">இலைகள்</string>
+    <string name="tamil_mainpage_miris_tamil">மிளகாய்</string>
+
+    <string name="tamil_mainpage_kulubadu_english">Spices</string>
+    <string name="tamil_mainpage_palawarga_english">Green leaves</string>
+    <string name="tamil_mainpage_miris_english">Chilli</string>
+
+    <string name="sinhala_mainpage_pela">පැළ</string>
+    <string name="sinhala_mainpage_beeja">බීජ</string>
+    <string name="sinhala_mainpage_bimmal">බිම් මල්</string>
+
+    <string name="tamil_mainpage_pela_tamil">தாவரங்கள்</string>
+    <string name="tamil_mainpage_beeja_tamil">விதை</string>
+    <string name="tamil_mainpage_bimmal_tamil">காளான்</string>
+
+    <string name="tamil_mainpage_pela_english">Plants</string>
+    <string name="tamil_mainpage_beeja_english">Seeds</string>
+    <string name="tamil_mainpage_bimmal_english">Mushrooms</string>
+
+    <string name="sinhala_mainpage_thel">තෙල්</string>
+    <string name="sinhala_mainpage_ala">අල</string>
+    <string name="sinhala_mainpage_maanshaboga">මාංශ බෝග</string>
+
+    <string name="tamil_mainpage_thel_tamil">எண்ணெய்</string>
+    <string name="tamil_mainpage_ala_tamil">உருளைக்கிழங்கு</string>
+    <string name="tamil_mainpage_maanshaboga_tamil">இறைச்சி பயிர்களின் மேலாண்மை</string>
+
+    <string name="tamil_mainpage_thel_english">Oil</string>
+    <string name="tamil_mainpage_ala_english">Potatoes</string>
+    <string name="tamil_mainpage_maanshaboga_english">Meat Crops</string>
+
+    <string name="sinhala_mainpage_mal">මල්</string>
+    <string name="sinhala_mainpage_apanayanaboga">අපනයන බෝග</string>
+    <string name="sinhala_mainpage_aayurwedashaka">ආයුර්වේද ශාක</string>
+
+    <string name="tamil_mainpage_mal_tamil">மலர்</string>
+    <string name="tamil_mainpage_apanayanaboga_tamil">ஏற்றுமதிப் பயிர்கள்</string>
+    <string name="tamil_mainpage_aayurwedashaka_tamil">ஆயுர்வேத தாவரங்கள்</string>
+
+    <string name="tamil_mainpage_mal_english">Flowers</string>
+    <string name="tamil_mainpage_apanayanaboga_english">Export Crops</string>
+    <string name="tamil_mainpage_aayurwedashaka_english">Ayurvedic plants</string>
+
+    <string name="sinhala_mainpage_helabojun">හෙළ බොජුන්</string>
+    <string name="sinhala_mainpage_athkam">අත්කම්</string>
+    <string name="sinhala_mainpage_gap">ගැප්</string>
+
+    <string name="tamil_mainpage_helabojun_tamil">வணக்கம் போஜூன்</string>
+    <string name="tamil_mainpage_athkam_tamil">கைவினை</string>
+    <string name="tamil_mainpage_gap_tamil">Gap</string>
+
+    <string name="tamil_mainpage_helabojun_english">Hela Bojun</string>
+    <string name="tamil_mainpage_athkam_english">Crafts</string>
+    <string name="tamil_mainpage_gap_english">Gap</string>
+
+    <string name="sinhala_mainpage_goviupakarana">කෘෂි උපකරණ</string>
+    <string name="sinhala_mainpage_prawahana">ප්‍රවාහන</string>
+    <string name="sinhala_mainpage_krushishramikayin">කෘෂි ශ්‍රමිකයන්</string>
+
+    <string name="tamil_mainpage_goviupakarana_tamil">விவசாய உபகரணங்கள்</string>
+    <string name="tamil_mainpage_prawahana_tamil">போக்குவரத்து</string>
+    <string name="tamil_mainpage_krushishramikayin_tamil">விவசாய கூலி</string>
+
+    <string name="tamil_mainpage_goviupakarana_english">Agricultural Equipment</string>
+    <string name="tamil_mainpage_prawahana_english">Transport</string>
+    <string name="tamil_mainpage_krushishramikayin_english">Agricultural Laborers</string>
+
+    <string name="sinhala_mainpage_sathwapalana">සත්ව පාලන</string>
+    <string name="sinhala_mainpage_pohora">පොහොර</string>
+
+    <string name="tamil_mainpage_sathwapalana_tamil">கால்நடை வளர்ப்பு</string>
+    <string name="tamil_mainpage_pohora_tamil">உரம்</string>
+
+    <string name="tamil_mainpage_sathwapalana_english">Animal Control</string>
+    <string name="tamil_mainpage_pohora_english">Fertilizer</string>
+
+    <!--    Not using-->
+    <string name="sinhala_mainpage_oushada">ඔෘෂධ</string>
+    <string name="sinhala_mainpage_luunu">ලූනුු</string>
+    <string name="sinhala_mainpage_wenathbooga">වෙනත් බෝග</string>
+    <!--   End Not using-->
+
+    <!-- LOgin page strings-->
+
+    <string name="Login_subtittle">ඔබගේ ගිණුමට ඇතුල් වන්න</string>
+    <string name="Login_subtittle_forgotpass">මුර පදය අමතකද?</string>
+    <string name="Login_subtittle_athulwanna">තහවුරු කරන්න</string>
+    <string name="Login_subtittle_ginumaknathida">ඔබට ගිණුමක් නැතිද? සකසා ගන්න</string>
+
+    <string name="Login_subtittle_tamil">உங்கள் கணக்கில் உள்நுழைக</string>
+    <string name="Login_subtittle_forgotpass_tamil">கடவுச்சொல் மறந்துவிட்டதா?</string>
+    <string name="Login_subtittle_athulwanna_tamil">உள்நுழைய</string>
+    <string name="Login_subtittle_ginumaknathida_tamil">உங்களிடம் கணக்கு இல்லையா?</string>
+
+    <string name="Login_subtittle_english">Please Login</string>
+    <string name="Login_subtittle_forgotpass_english">Forgot Password?</string>
+    <string name="Login_subtittle_athulwanna_english">Log In</string>
+    <string name="Login_subtittle_ginumaknathida_english">Dont have account? Register Now</string>
+
+
+
+    <!-- Register fragment strings-->
+    <string name="s_register_tittle">අලෙවිය සදහා ලියාපදිංචිය</string>
+    <string name="s_register_name">නම</string>
+    <string name="s_register_nic">ජා.හැ.අ</string>
+    <string name="s_register_gender">ස්ත්‍රී පුරුෂ භාවය</string>
+    <string name="s_register_gender_female">ස්ත්‍රී</string>
+    <string name="s_register_gender_male">පුරුෂ</string>
+    <string name="s_register_address">ලිපිනය</string>
+    <string name="s_register_phone">දුරකථන අංකය</string>
+    <string name="s_register_district">දිස්ත්‍රික්කය</string>
+    <string name="s_register_govicenter">ගොවිජන සේවා මධ්‍යස්ථානය</string>
+    <string name="s_register_submit">තහවුරු කරන්න</string>
+    <string name="s_register_pass">මුර පදය</string>
+    <string name="s_register_comfpass">මුර පදය තහවුරු කරන්න</string>
+
+    <string name="s_register_tittle_tamil">விற்பனைக்கு பதிவு</string>
+    <string name="s_register_name_tamil">பெயர்</string>
+    <string name="s_register_nic_tamil">தேசிய அடையாள அட்டை எண்</string>
+    <string name="s_register_gender_tamil">பாலினம்</string>
+    <string name="s_register_gender_female_tamil">பெண்கள்</string>
+    <string name="s_register_gender_male_tamil">ஆண்கள்</string>
+    <string name="s_register_address_tamil">முகவரி</string>
+    <string name="s_register_phone_tamil">தொலைபேசி எண்</string>
+    <string name="s_register_district_tamil">மாவட்டம்</string>
+    <string name="s_register_govicenter_tamil">விவசாய சேவை மையம்</string>
+    <string name="s_register_submit_tamil">கடவுச்சொல்லை உறுதிப்படுத்தவும்</string>
+    <string name="s_register_pass_tamil">கடவுச்சொல்</string>
+    <string name="s_register_comfpass_tamil">உறுதிப்படுத்து</string>
+
+    <string name="s_register_tittle_english">Registration</string>
+    <string name="s_register_name_english">Name</string>
+    <string name="s_register_nic_english">NIC</string>
+    <string name="s_register_gender_english">Gender</string>
+    <string name="s_register_gender_female_english">Female</string>
+    <string name="s_register_gender_male_english">Male</string>
+    <string name="s_register_address_english">Address</string>
+    <string name="s_register_phone_english">Phone</string>
+    <string name="s_register_district_english">District</string>
+    <string name="s_register_govicenter_english">Govi Center</string>
+    <string name="s_register_submit_english">Submit</string>
+    <string name="s_register_pass_english">Password</string>
+    <string name="s_register_comfpass_english">Confirm Password</string>
+
+
+    <!-- Adverticment Application Form Strings -->
+    <string name="s_ad_applicationform_title">කැරට්</string>
+    <string name="s_ad_applicationform_type">වර්ගය</string>
+    <string name="s_ad_applicationform_unit_price">ඒකක මිල(රු)</string>
+    <string name="s_ad_applicationform_total_qty">විකිනීමට ඇති ප්‍රමාණය</string>
+    <string name="s_ad_applicationform_units">ඒකක</string>
+    <string name="s_ad_applicationform_selling_district">දිස්ත්‍රික්කය</string>
+    <string name="s_ad_applicationform_selling_govicenter">ගොවිජන සේවා මධ්‍යස්ථානය</string>
+    <string name="s_ad_applicationform_selling_place">විකුණන ස්ථානය</string>
+    <string name="s_ad_applicationform_seller_name">නම</string>
+    <string name="s_ad_applicationform_selling_phoneno">දුරකථන අංකය</string>
+    <string name="s_ad_applicationform_expirationdate">තොග කල් ඉකුත්වන දිනය</string>
+    <string name="s_ad_applicationform_if_photos_available">විකුණුම් ඡායාරූප (ඇත්නම්)</string>
+    <string name="s_ad_applicationform_submit_btn">දැන්වීම පලකරන්න</string>
+    <string name="s_ad_applicationform_edit_btn">සංස්කරණය කරන්න</string>
+
+    <string name="s_ad_applicationform_title_tamil">Title</string>
+    <string name="s_ad_applicationform_type_tamil">வகை</string>
+    <string name="s_ad_applicationform_unit_price_tamil">ஒரு யூனிட்டுக்கு விலை</string>
+    <string name="s_ad_applicationform_total_qty_tamil">அளவு</string>
+    <string name="s_ad_applicationform_units_tamil">Units</string>
+    <string name="s_ad_applicationform_selling_district_tamil">மாவட்டம்</string>
+    <string name="s_ad_applicationform_selling_govicenter_tamil">விவசாய சேவை மையம்</string>
+    <string name="s_ad_applicationform_selling_place_tamil">விற்பனை இடம்</string>
+    <string name="s_ad_applicationform_seller_name_tamil">பெயர்</string>
+    <string name="s_ad_applicationform_selling_phoneno_tamil">தொலைபேசி எண்</string>
+    <string name="s_ad_applicationform_expirationdate_tamil">காலாவதி தேதி</string>
+    <string name="s_ad_applicationform_if_photos_available_tamil">புகைப்படம்</string>
+    <string name="s_ad_applicationform_submit_btn_tamil">உங்கள் விளம்பரத்தை இடுங்கள்</string>
+    <string name="s_ad_applicationform_edit_btn_tamil">Edit</string>
+
+    <string name="s_ad_applicationform_title_english">Title</string>
+    <string name="s_ad_applicationform_type_english">Type</string>
+    <string name="s_ad_applicationform_unit_price_english">Price per unit</string>
+    <string name="s_ad_applicationform_total_qty_english">Quantity</string>
+    <string name="s_ad_applicationform_units_english">Units</string>
+    <string name="s_ad_applicationform_selling_district_english">Disrict</string>
+    <string name="s_ad_applicationform_selling_govicenter_english">Govijana Center</string>
+    <string name="s_ad_applicationform_selling_place_english">Place of sale</string>
+    <string name="s_ad_applicationform_seller_name_english">Seller Name</string>
+    <string name="s_ad_applicationform_selling_phoneno_english">Seller Phone</string>
+    <string name="s_ad_applicationform_expirationdate_english">Expiration date</string>
+    <string name="s_ad_applicationform_if_photos_available_english">Product photos</string>
+    <string name="s_ad_applicationform_submit_btn_english">Submit</string>
+    <string name="s_ad_applicationform_edit_btn_english">Edit</string>
+
+    <!-- Sinhala Selling Vegies ( Names ) -->
+
+    <string name="s_selling_vegi_item_01">බීට්</string>
+    <string name="s_selling_vegi_item_02">නයිමිරිස්</string>
+    <string name="s_selling_vegi_item_03">කරවිල</string>
+    <string name="s_selling_vegi_item_04">දෙල්</string>
+    <string name="s_selling_vegi_item_05">ගෝව</string>
+    <string name="s_selling_vegi_item_06">මාළු මිරිස්</string>
+    <string name="s_selling_vegi_item_07">කැරට්</string>
+    <string name="s_selling_vegi_item_08">මිරිස්</string>
+    <string name="s_selling_vegi_item_09">මිරිස්</string>
+    <string name="s_selling_vegi_item_10">පිපිඤ්ඤා</string>
+    <string name="s_selling_vegi_item_11">මුරුංග</string>
+    <string name="s_selling_vegi_item_12">වම්බටු</string>
+    <string name="s_selling_vegi_item_13">සුදුළුණු</string>
+    <string name="s_selling_vegi_item_14">ගර්කින්</string>
+    <string name="s_selling_vegi_item_15">බෝංචි</string>
+    <string name="s_selling_vegi_item_16">නෝකෝල්</string>
+    <string name="s_selling_vegi_item_17">බණ්ඩක්ක</string>
+    <string name="s_selling_vegi_item_18">ලීක්ස්</string>
+    <string name="s_selling_vegi_item_19">වැටකොළු</string>
+    <string name="s_selling_vegi_item_20">වට්ටක්ක</string>
+    <string name="s_selling_vegi_item_21">රාබු</string>
+    <string name="s_selling_vegi_item_22">ලොකුළුණු</string>
+    <string name="s_selling_vegi_item_23">රතුළුණු</string>
+    <string name="s_selling_vegi_item_24">වැටකොළු</string>
+    <string name="s_selling_vegi_item_25">තලන බටු</string>
+    <string name="s_selling_vegi_item_26">තක්කාලි</string>
+    <string name="s_selling_vegi_item_27">දඹල</string>
+
+    <!-- Sinhala buying  -->
+    <string name="s_buy_order_submit_btn">අමතන්න</string>
+
+
+    <!-- Sinhala Register success msg  -->
+    <string name="s_register_error">කරුනාකර සියල්ල පුරවන්න..</string>
+
+    <string name="s_register_msg_title">සුපිරි පොලට ඔබව සාදරයෙන් පිලිගන්නවා!</string>
+    <string name="s_register_msg">ලියාලදිංචිය සාර්ථකයි..</string>
+    <string name="s_register_loginpage">මුල් පිටුව</string>
+
+<!--   Todays Price Activity-->
+    <string name="s_todays_price_economic_center">ආර්ථික මධ්‍යස්ථාණය</string>
+    <string name="s_todays_price_maincat">වර්ගය</string>
+    <string name="s_todays_price_stock_price">තොග මිල</string>
+    <string name="s_todays_price_retail_price">සිල්ලර මිල</string>
+
+    <string name="s_todays_price_economic_center_tamil">பொருளாதார மையம்</string>
+    <string name="s_todays_price_maincat_tamil">வகை</string>
+
+    <string name="s_todays_price_economic_center_english">Economic Center</string>
+    <string name="s_todays_price_maincat_english">Type</string>
+
+<!--    custom seller ads layout strings-->
+    <string name="s_ad_posted_date">දැන්වීම පලකල දිනය</string>
+    <string name="tamil_ad_posted_date">விளம்பர தேதி</string>
+    <string name="english_ad_posted_date">Ad Date</string>
+
+
+</resources>

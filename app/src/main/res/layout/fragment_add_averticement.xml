@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddAverticementFragment"
+    android:clickable="false"
+    android:background="@drawable/add_adverticment_background"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:id="@+id/add_application_title"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/s_ad_applicationform_title"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Spinner
+                android:spinnerMode="dropdown"
+                android:layout_marginTop="10dp"
+                android:id="@+id/add_application_maincat"
+                android:background="@drawable/edittext_background"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+            <Spinner
+                android:spinnerMode="dropdown"
+                android:layout_marginTop="10dp"
+                android:id="@+id/add_application_subcat"
+                android:background="@drawable/edittext_background"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+
+
+            <EditText
+                android:textSize="15sp"
+                android:id="@+id/add_application_type"
+                android:hint="@string/s_ad_applicationform_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedwhitebackground"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:textSize="15sp"
+                android:inputType="numberDecimal"
+                android:id="@+id/add_application_unitprice"
+                android:hint="@string/s_ad_applicationform_unit_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedwhitebackground"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:textSize="15sp"
+                    android:inputType="number"
+                    android:id="@+id/add_application_total_qty"
+                    android:hint="@string/s_ad_applicationform_total_qty"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:padding="10dp" />
+
+                <Spinner
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:background="@drawable/roundedwhitebackground"
+                    android:id="@+id/add_application_units"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+            <EditText
+                android:textSize="15sp"
+                android:id="@+id/add_application_district"
+                android:hint="@string/s_ad_applicationform_selling_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedwhitebackground"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:textSize="15sp"
+                android:id="@+id/add_application_govicenter"
+                android:hint="@string/s_ad_applicationform_selling_govicenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedwhitebackground"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <EditText
+                android:textSize="15sp"
+                android:id="@+id/add_application_sellingplace"
+                android:hint="@string/s_ad_applicationform_selling_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedwhitebackground"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:textSize="15sp"
+                android:id="@+id/add_application_phonenumber"
+                android:hint="@string/s_ad_applicationform_selling_phoneno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedwhitebackground"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:enabled="false"/>
+
+            <LinearLayout
+
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundedwhitebackground"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/add_application_expiridate_title"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/s_ad_applicationform_expirationdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <DatePicker
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/add_application_expiridate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:datePickerMode="spinner"
+                    android:calendarViewShown="false"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedwhitebackground"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/add_application_images_title"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="@string/s_ad_applicationform_if_photos_available"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+           <HorizontalScrollView
+               android:layout_width="match_parent"
+               android:layout_height="130dp">
+
+               <LinearLayout
+                   android:orientation="horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent">
+
+                   <LinearLayout
+                       android:layout_margin="5dp"
+                       android:id="@+id/add_application_image01_linear01"
+                       android:gravity="center"
+                       android:orientation="vertical"
+                       android:layout_width="130dp"
+                       android:layout_height="match_parent">
+
+                       <de.hdodenhof.circleimageview.CircleImageView
+                           xmlns:app="http://schemas.android.com/apk/res-auto"
+                           android:id="@+id/add_application_image01"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/ic_menu_camera"
+                           android:layout_gravity="center"
+                           app:civ_border_width="3dp"
+                           app:civ_border_color="#00F260"
+                           />
+
+
+
+
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_margin="5dp"
+                       android:id="@+id/add_application_image02_linear02"
+                       android:gravity="center"
+                       android:orientation="vertical"
+                       android:layout_width="130dp"
+                       android:layout_height="match_parent">
+
+
+                       <de.hdodenhof.circleimageview.CircleImageView
+                           xmlns:app="http://schemas.android.com/apk/res-auto"
+                           android:id="@+id/add_application_image02"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/ic_menu_camera"
+                           android:layout_gravity="center"
+                           app:civ_border_width="3dp"
+                           app:civ_border_color="#00F260"
+                           />
+
+
+
+
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_margin="5dp"
+                       android:id="@+id/add_application_image03_linear03"
+                       android:gravity="center"
+
+                       android:orientation="vertical"
+                       android:layout_width="130dp"
+                       android:layout_height="match_parent">
+
+
+                       <de.hdodenhof.circleimageview.CircleImageView
+                           xmlns:app="http://schemas.android.com/apk/res-auto"
+                           android:id="@+id/add_application_image03"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/ic_menu_camera"
+                           android:layout_gravity="center"
+                           app:civ_border_width="3dp"
+                           app:civ_border_color="#00F260"
+                           />
+
+
+                   </LinearLayout>
+
+
+
+
+               </LinearLayout>
+
+           </HorizontalScrollView>
+
+        </LinearLayout>
+
+
+            <Button
+                android:id="@+id/add_application_submit"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/dark_button_background"
+                android:text="@string/s_ad_applicationform_submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        </LinearLayout>
+
+
+            </ScrollView>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
